@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Email_send_ASP_dot_Core.props" />
+</Project>

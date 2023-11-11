@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\core\\SEND_EMAIL_ON_ASP_NET_CORE\\Email_send_ASP_dot_Core\\Email_send_ASP_dot_Core.csproj": {}
+  },
+  "projects": {
+    "D:\\core\\SEND_EMAIL_ON_ASP_NET_CORE\\Email_send_ASP_dot_Core\\Email_send_ASP_dot_Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\core\\SEND_EMAIL_ON_ASP_NET_CORE\\Email_send_ASP_dot_Core\\Email_send_ASP_dot_Core.csproj",
+        "projectName": "Email_send_ASP_dot_Core",
+        "projectPath": "D:\\core\\SEND_EMAIL_ON_ASP_NET_CORE\\Email_send_ASP_dot_Core\\Email_send_ASP_dot_Core.csproj",
+        "packagesPath": "C:\\Users\\smsah\\.nuget\\packages\\",
+        "outputPath": "D:\\core\\SEND_EMAIL_ON_ASP_NET_CORE\\Email_send_ASP_dot_Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\smsah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[2.5.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.32, 3.1.32]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
